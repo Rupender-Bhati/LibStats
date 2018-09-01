@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>SearchBooks</title>
+<link href="../STYLESHEET/HomeCSS.css" rel="stylesheet" />
+<link href="https://fonts.googleapis.com/css?family=Acme|Russo+One" rel="stylesheet">
+
+
+
+
+
+<script src="../JS/JSHOME.js">
+</script>
+<script src="../JS/Jquery/Jquery.js">
+</script>
+
+<script src="../ScrollMagic-2.0.5/ScrollMagic-2.0.5/scrollmagic/uncompressed/ScrollMagic.js">
+</script>
+<script src="../JS/ScrollMagicEff.js">
+</script>
+<script src="../ScrollMagic-2.0.5/ScrollMagic-2.0.5/js/lib/greensock/TweenMax.min.js">
+</script>
+<script src="../ScrollMagic-2.0.5/ScrollMagic-2.0.5/scrollmagic/uncompressed/plugins/animation.gsap.js">
+</script>
+
+
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Search Book</title>
+</head>
+
+
+<body style=" background:url(../ASSETS/tweed_@2X.png); overflow-x: hidden;" >
+<div id="logo" style="position:absolute; left:40%;">
+
+<a href="../HOME/HOME.html"><img src="../LOGO2.png" style="width:300px; height:250px; padding:20px" /></a>
+</div>
+
+
+
+<div id="hoverbar" onmouseover="OpenNav()">
+
+</div>
+
+
+<div id="MENU" class="vertical" style="background:url(../ASSETS/Cardboard.png); background-size:contain">
+<a href="javascript:void(0)"  class="close" onClick="CloseNav()" style="border:none; box-shadow:none;">&times;</a>
+<a href="SearchBook.html">Search Books</a><br />
+<a id="men2" href="About.html"> About</a>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<div id="LIBSTAT" class="Fade-in">
+<h1 style="font-family: 'Russo One', sans-serif;text-align:center; color:rgb(255,255,255)" >
+L I B  S T A T S 
+</h1>
+</div>
+<form id="BookSearch" class="BookSearchForm" method="post" action="access.php">
+	
+	<input type="text" class="TextBox" name="BookName" placeholder="Enter Book Name">&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	
+	<select class="Dropdown" name="Select_Sem">
+		<option>Select Semester(No preference otherwise)</option>
+		
+		<option id="Sem1">1</option>
+		<option id="Sem2">2</option>
+		<option id="Sem3">3</option>
+		<option id="Sem4">4</option>
+		<option id="Sem5">5</option>
+		<option id="Sem6">6</option>
+		<option id="Sem7">7 </option>
+		<option id="Sem8">8</option>
+		<option id="Nopref">No Preference</option>
+		
+	</select>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	
+	
+	<select class="Dropdown" name="Select_Diff_Pref">
+	<option> Select your preferred book type (No preference otherwise) </option>
+	<option id="ExamOrient">Exam Oriented</option>
+	<option id="IntRd">Interest Reading</option>
+	<option id="Digests">Digests</option>
+	<option id="Course">Course Oriented</option>
+	<option id="Workbooks">WorkBooks</option>
+	<option id="Literature">Literature</option>
+	<option id="NULL_Type">No Preference</option>
+	</select>
+	&nbsp;&nbsp;&nbsp;&nbsp;
+	
+	
+	
+	<select class="Dropdown" name="Course_Select">
+		
+		<option> Select Programme (No preference otherwise)</option>
+		<option id="CS">CS</option>
+		<option id="ECE">ECE</option>
+		<option id="MEC">MEC</option>
+		<option id="NULL">No Preference</option>
+		
+		
+	</select>
+	<input type="submit" class="SubmitButton" value="SEARCH">
+</form>
+
+</body>
+</html>

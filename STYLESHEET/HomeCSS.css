@@ -1,0 +1,375 @@
+@charset "utf-8";
+/* CSS Document */
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+	background-color:rgb(0,0,0);
+	cursor:pointer;
+	position:sticky;
+}
+li
+{
+	color: white;
+	width:100px;
+	height:50px;
+	padding:0px;
+	display:block;
+	text-align:center;
+	text-height:auto;
+	margin:0px;
+	font-family:"Segoe UI Symbol";
+	font-size:20px;
+	background-color:rgb(0,0,0);
+	
+}
+li:hover
+{
+	color:rgb(255,255,255);
+	background-color:rgb(205,82,22);
+	transition:1s;
+	
+	
+}
+
+#logo
+{
+	top:0%;
+	left:10%;
+	padding:0px;
+	margin:0px;
+}
+
+#hoverbar
+{
+	position:fixed;
+	width:70px;
+	height: 100%;
+	z-index:1;
+	left:0px;
+	opacity:0;
+}
+.vertical a:hover:not(.active)
+
+{
+	background-color:rgb(102,153,51);
+	box-shadow: inset 0px 0px 20px #333333;
+	color: white;
+	text-shadow:0px 0px 5px #000000;
+	transition:1s;
+}
+.vertical a:active
+{
+	background-color:rgb(102,153,153);
+	color:rgb(255,87,87);
+	box-shadow: inset 0px 0px 20px #999999;
+	text-shadow:0px 0px 5px #000000;
+}
+
+.vertical
+{
+	list-style-type: none;
+    margin: 0;
+	width:0;
+	z-index:2;
+    background-color:white;
+	position:fixed;
+    height: 100%;
+    overflow:hidden;
+	font-size:30px;
+	transition: ease-out 1s;
+	top:0%;
+	left:0%;
+	box-shadow:5px 0px 10px #000000;
+}
+.vertical .close
+{
+	position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.vertical a
+{
+	display: block;
+    color: black;
+    padding: 20px 24px;
+    text-decoration: none;
+	position:relative;
+	top:150px;
+	box-shadow: inset 0px 0px 10px #999999;
+	
+}
+#men2:hover 
+{
+	background-color:rgb(204,0,0);
+	box-shadow: inset 0px 0px 20px #333333;
+	color: white;
+	text-shadow:0px 0px 5px #000000;
+	transition:1s;
+}
+
+#anim-objects
+{
+	position:relative;
+}
+.animate-left
+{
+	opacity:0;
+	transition:1s ease-in-out;
+	transform:translate(0em,0em);
+}
+.animate-right
+{
+	float:right;
+	opacity:0;
+	transition:1s ease-in-out;
+	transform:translate(0em,0em)
+	
+}
+
+.animate-up
+{
+	opacity:0;
+	text-shadow:0px 0px 20px #000000;
+
+	transition:2s ease-in-out;
+	transform:translate(0em,0em)
+}
+
+.animate-left.Fade-In-From-Left
+{
+	opacity:1;
+	transform:translate(22em,0);
+}
+
+.animate-right.Fade-In-From-Right
+{
+	opacity:1;
+	transform:translate(-22em,0);
+}
+
+
+.animate-up.Fade-In-From-Below
+{
+	opacity:1;
+
+	transform:translate(0em,-10em);
+	
+
+}
+.Fade-in
+{
+	opacity:1;
+	font-stretch:normal;
+	text-shadow:0px 0px 30px #000000;
+	transition:2s ease-in-out;
+	font-size:70px;
+	color:rgb(255,255,255);
+	letter-spacing: 5px;
+	
+}
+.Fade2
+{
+	opacity:1;
+	font-stretch:normal;
+	text-shadow:0px 0px 30px #000000;
+	transition:2s ease-in-out;
+	font-size:70px;
+	color:rgb(255,255,255);
+	letter-spacing: 5px;
+	
+}
+.Fade-in.Fade
+{
+	opacity:1;
+	letter-spacing: 10px;
+	text-shadow:20px 20px 60px #000000;
+	
+}
+
+
+
+#Desc-Box
+{
+	letter-spacing: 10px;
+	font-size:55px;
+	position:relative;
+	left:22%;
+	margin-right:650px;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+	font-weight:bolder;
+	color:white;
+	top:-1000px;
+}
+#Desc-Box2
+{
+	letter-spacing: 10px;
+	font-size:55px;
+	position:relative;
+	left:22%;
+	margin-right:650px;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+	font-weight:bolder;
+	color:white;
+	top:-1000px;}
+
+#Desc-Box3
+{
+	letter-spacing: 10px;
+	font-size:55px;
+	position:relative;
+	left:22%;
+	margin-right:650px;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+	font-weight:bolder;
+	color:white;
+	top:-1000px;}
+
+
+#Desc-Box4
+{
+	letter-spacing: 10px;
+	font-size:55px;
+	position:relative;
+	left:22%;
+	margin-right:650px;
+	text-align:center;
+	font-family: 'Russo One', sans-serif;
+	
+	font-weight:bolder;
+	color:white;
+	top:-1000px;
+}
+
+
+
+
+
+
+.Book-left
+{
+	transition:1s;
+	transform:rotate(0deg);
+}
+
+.Book-right
+{
+	transition:1s;
+	transform:rotate(0deg);
+}
+.Parallax-trial
+{
+	position:relative;
+	overflow:hidden;
+	text-align:center;
+	border-radius:50px;
+	
+}
+
+.BG
+{
+	background:url(../ASSETS/222069-P15YC0-154.jpg);
+	background-size:cover;
+	
+	width:100%;
+	height:140%;
+	top:0;
+	opacity:1;
+	z-index:1;
+	position:absolute;
+	box-shadow: inset 0px 0px 100px #000000;
+		}
+.Interior
+{
+	
+	width:90%;
+	margin: 0 auto;
+	color: green;
+	z-index:2;
+	position:relative;
+	
+}
+
+
+::-webkit-scrollbar
+{
+	width: 0px;
+}
+.TextBox
+{
+	width: 355px;
+	height: 40px;
+	border:none;
+	padding-left: 10px;
+	background-color: white;
+	color:#A5473D;
+	font-family:'Russo One', sans-serif; 
+
+
+}
+.Dropdown
+{
+	width: 355px;
+	height: 42px;
+	border:none;
+	padding-left: 10px;
+	background-color: white;
+	color:#A5473D;
+	font-family:'Russo One', sans-serif;
+}
+
+.BookSearchForm
+{
+	position: relative;
+	left:10px;
+	}
+::-webkit-input-placeholder
+{
+	color:#A5473D;
+	font-family:'Russo One', sans-serif; 
+
+}
+
+.SubmitButton
+{
+	width: 300px;
+	height: 50px;
+	position: relative;
+	left: 630px;
+	top:80px;
+	z-index: 1;
+	background-color: #A5473D;
+	border: solid thin white;
+	color:white;
+	font-family:'Russo One', sans-serif;
+	margin: 0 auto;
+	padding: none;
+	font-size: 30px;
+	transition: 1s;
+}
+.SubmitButton:hover
+{
+	box-shadow: inset 0px 0px 10px black;
+	background-color: #BD584D;
+	width: 320px;
+	height: 55px;
+	left: 620px;
+	
+	
+}
+
+.Book
+{
+	position: relative;
+	top: 30px;
+	left:640px;
+	z-index: 1;
+	
+}
