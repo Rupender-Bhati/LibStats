@@ -1,8 +1,8 @@
-# LIBSTAT
+# LIBSTATS
 
 ### Overview
 
-***LibStat*** is a web-based Library Management System developed for Lovely Professional University Library in which Users can search books and their location in the library.This system solves the major problem  faced by Lovely Professional University students (especially freshers) when they are unable to find the books in the library,whether it be their recommended course books or any other book they want to read even when it is available. Libstat provides the **location and details** with just a click!
+***LibStats*** is a web-based Library Management System developed for Lovely Professional University Library in which Users can search books and their location in the library.This system solves the major problem  faced by Lovely Professional University students (especially freshers) when they are unable to find the books in the library,whether it be their recommended course books or any other book they want to read even when it is available. Libstat provides the **location and details** with just a click!
 
 ### Created by - Priyansh Tiwari and Rupender Bhati
 
